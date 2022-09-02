@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+
 <html lang="en">
 
 <head>
@@ -7,16 +8,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="http://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,900;1,900&display=swap"
         rel="stylesheet">
 
-    <title>To-do activity</title>
+        <title>To-do activity</title>
 </head>
 
 <body>
-    <header>
+   
+    <header class="Encabezado">
 
         <h1 class="titulo">Tareas de la semana</h1>
 
@@ -24,21 +27,20 @@
     <main>
         <section>
             <h2>Tareas</h2>
-            <ul>Ejercicio web</ul>
-            <ul id="todas"></ul>
+            <ul id="all"></ul>
         </section>
 
         <section>
-            <h2>Tareas pendientes</h2>
-            <ul id="pendientes"></ul>
+            <h2>Pendientes</h2>
+            <ul id="pending"></ul>
         </section>
 
         <section>
-            <h2>Tareas completadas</h2>
-            <ul id="completadas"></ul>
+            <h2>Completadas</h2>
+            <ul id="completed"></ul>
         </section>
     </main>
-
+    <script src="script.js"></script>
 
 </body>
 
