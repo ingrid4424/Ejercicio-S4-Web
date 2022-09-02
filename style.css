@@ -1,6 +1,5 @@
 *{
-
-    font-family: "poppins", "san serif";
+    font-family: "Poppins", "san serif";
     margin: 20;
     padding: auto;
 }
@@ -17,7 +16,31 @@ flex-direction: row;
 width: 100%;
 justify-content: center;
 margin: 20spx;
+flex-wrap: wrap;
+}
 
+section{
+    background-color: rgb(207, 207, 207);
+    overflow: hidden;
+}
+
+.h_100{
+    height: 100vh;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+article.h_100{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.h_50{
+    height: 45%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .titulo{

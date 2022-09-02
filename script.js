@@ -20,7 +20,7 @@ const tasks = [
   //¿ pinto la clase de checked y unchecked y agrega un event listener a cada uno
   function createTasks() {
   
-    // vaciar lista y evitar elementos repetidos
+    
     allTasksHtml.innerHTML = "";
     pendingHtml.innerHTML = "";
     completedHtml.innerHTML = "";
